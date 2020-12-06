@@ -25,4 +25,4 @@ server_scripts {
 
 pmc_updates 'yes'
 pmc_github 'https://github.com/pitermcflebor/pmc-updater'
-pmc_version 'v1.0'
+pmc_version 'v1.1'
