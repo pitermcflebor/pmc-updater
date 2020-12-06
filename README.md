@@ -13,8 +13,11 @@
 | Parameter | Description |
 |-|-|
 | resource name | Check updates for the resource, only if they are made to be updated with pmc-updater. Downloaded with 'git clone' works, check the command below. |
+
 Command example:
+
 `git update pmc-updater`
+
 #### git clone
 | Parameter | Description |
 |-|-|
