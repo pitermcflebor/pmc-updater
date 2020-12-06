@@ -64,7 +64,7 @@ function UpdateResource(resource, disableStoppedLog)
 							if not fileString:find([[pmc_github '*.*']]) then
 								fileString = fileString .. ("\npmc_github '%s'"):format(metaGitLink)
 							end
-							if not fileString:find(("\npmc_version '%s'"):format(lastRelease.tag_name)) then
+							if not fileString:find(("\npmc_version '*.*'"):format(lastRelease.tag_name)) then
 								fileString = fileString .. ("\npmc_version '%s'"):format(lastRelease.tag_name)
 							else
 								fileString = fileString:gsub("pmc_version '*.*'", ("pmc_version '%s'"):format(lastRelease.tag_name))
