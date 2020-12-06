@@ -20,11 +20,17 @@ Command example:
 |-|-|
 | github url | The github repository URL, example: https://github.com/pitermcflebor/pmc-updater |
 | directory | *Optional, default root resources folder* The path where the resource will be cloned. |
+
 Command example:
+
 `git clone https://github.com/pitermcflebor/pmc-updater /[test]`
+
 *Only add a slash when the folder starts with some special char like `[`*
+
 `git clone https://github.com/pitermcflebor/pmc-updater /[core]//[pmc]`
+
 *Don't write the resource name, it will be the github repo name!*
+
 ### Example
 https://streamable.com/xn8dv0
 
